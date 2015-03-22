@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ExpandableListViewAnimationExample.Controls.ExpandableListAnimation.AnimatedExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:groupIndicator="@null"
+        android:dividerHeight="1dp"
+        android:childDivider="#D4D5D6" />
+</LinearLayout>

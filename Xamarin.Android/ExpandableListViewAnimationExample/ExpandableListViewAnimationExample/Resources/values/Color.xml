@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="TEXTCOLOR">#4A4A4A</color>
+  <color name="TEXTCOLORHINT">#CBCBCB</color>
+  <color name="BACKGROUNDWHITESMOKE">#FBFDFF</color>
+  <color name="WHITE">#FFFFFF</color>
+  <color name="BLACK">#000000</color>
+  <color name="LIGHT_GRAY">#B3B3B3</color>
+  <color name="BLUESKY">#00AEEF</color>
+  <color name="LIGHTBLUESKY">#D3EDFF</color>
+  <color name="LIGHTBLACK">#282828</color>
+  <color name="TRANSPARENT">#0000</color>
+  <color name="LIGHTGRAY"> #B3B3B3</color>
+  <color name="HEAVY_GRAY"> #9E9E9E</color>
+  <color name="SUPER_LIGHT_GRAY"> #DFDFDF</color>
+  <color name="DARK_GRAY"> #4A4A4A</color>
+  <color name="TRANSPARENT_LIGHT_GRAY">#abe4e4e4</color>
+  <color name="TRANSPARENT_WHITE">#fff8f8f8</color>
+  <color name="LIGHT_SILVER_GRAY"> #E2E2E1</color>
+  <color name="DIVIDER">#D4D5D6</color>
+  <color name="LOGINFILL">#D2D2D2</color>
+
+  <!-- Color Resource For Project Types-->
+  <color name="ProjectName1">#99ff99</color>
+  <color name="Project2">#fe011b</color>
+  <color name="Project3">#2e57ed</color>
+  <color name="AnualLeave">#2162a6</color>
+  <color name="SickLeave">#261577</color>
+  <color name="Wedding">#821418</color>
+  <color name="Funeral">#d7c797</color>
+  <color name="Meternity">#c1b9d9</color>
+
+  <!--Color for  ExpandableList-->
+  <color name="HEAVY_RED">#CE0608</color>
+  <color name="LIGHT_RED">#F16F70</color>
+
+  <color name="SUPER_LIGHT_BLUE">#D3EDFF</color>
+  <color name="SUPERX1_LIGHT_BLUE">#52D6F3</color>
+  <color name="LIGHT_BLUE">#D7EFFF</color>
+  <color name="LIGHTX0_BLUE">#44d3f2</color>
+  <color name="LIGHTX1_BLUE">#00A6D0</color>
+  <color name="LIGHTX2_BLUE">#009FDA</color>
+  <color name="LIGHTX3_BLUE">#0A84C3</color>
+
+  <color name="LIGHTSILVERGRAY">#CDE3F2</color>
+</resources>

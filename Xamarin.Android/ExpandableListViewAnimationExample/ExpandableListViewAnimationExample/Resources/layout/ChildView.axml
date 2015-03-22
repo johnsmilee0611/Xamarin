@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/HEIGHTITEMDETAILPROFILE"
+    android:id="@+id/linearLayout1"
+    android:background="#e2e2e1">
+    <View
+        android:id="@+id/ChildControl_ColorProjectsBar"
+        android:background="@color/WHITE"
+        android:layout_height="fill_parent"
+        android:layout_width="5dp" />
+    <LinearLayout
+        android:id="@+id/ChildControl_LayoutDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ChildControl_ColorProjectsBar"
+        android:layout_marginRight="40dp">
+        <TextView
+            android:id="@+id/ChildControl_txtProjects"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/BLACK"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="normal"
+            android:textSize="@dimen/MAINTITLEDETAIL"
+            android:layout_marginLeft="10dp"
+            android:text="Project Name" />
+        <TextView
+            android:id="@+id/ChildControl_txtDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/BLACK"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="@dimen/CONTENTDETAIL"
+            android:textStyle="normal"
+            android:text="Description"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ChildControl_LayoutHoursSpend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true">
+        <TextView
+            android:id="@+id/ChildControl_txtHoursSpend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="67"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/BLACK"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:gravity="center_horizontal"
+            android:textSize="14dp"
+            android:text="20h"
+            android:layout_gravity="right" />
+    </LinearLayout>
+</RelativeLayout>
