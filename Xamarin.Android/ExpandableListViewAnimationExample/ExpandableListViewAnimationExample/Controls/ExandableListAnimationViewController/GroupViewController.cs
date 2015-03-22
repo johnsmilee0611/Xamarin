@@ -25,6 +25,8 @@ namespace ExpandableListViewAnimationExample.Controls.ExandableListAnimationView
             : base(context)
         {
             InitView(context);
+
+            InitControls();
         }
 
         public ExpandableListGroupView(Context context, IAttributeSet attrs)
@@ -37,8 +39,8 @@ namespace ExpandableListViewAnimationExample.Controls.ExandableListAnimationView
 
         public void LoadData(string strHeader, double totalTime)
         {
-            //_header.Text = strHeader;
-            //_tvTotalTime.Text = totalTime.ToString() + "h/8h";
+            _header.Text = strHeader;
+            _tvTotalTime.Text = totalTime.ToString() + "h/8h";
         }
 
         private void InitView(Context context)

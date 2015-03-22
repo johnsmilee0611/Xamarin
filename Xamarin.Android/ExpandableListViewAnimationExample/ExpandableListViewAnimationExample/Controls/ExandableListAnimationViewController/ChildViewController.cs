@@ -33,6 +33,8 @@ namespace ExpandableListViewAnimationExample.Controls.ExandableListAnimationView
             : base(context, attrs)
         {
             InitView(context);
+
+            InitControls();
         }
 
         public void LoadData(WorkTask taskData)
