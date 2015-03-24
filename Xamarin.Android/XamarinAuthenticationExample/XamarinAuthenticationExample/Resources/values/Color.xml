@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="BG_FACEBOOK">#5E78B5</color>
+  <color name="BG_TEXTVIEW">#FFFFFF</color>
+  <color name="TEXTCOLOR">#47484B</color>
+  <color name="BG_BUTTON">#CACDD4</color>
+  
+</resources>

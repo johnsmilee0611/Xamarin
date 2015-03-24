@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@color/BG_FACEBOOK"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:background="@color/BG_TEXTVIEW"
+            android:textColor="@color/TEXTCOLOR"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColorHint="@color/TEXTCOLOR" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d3d3d3" />
+        <TextView
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:background="@color/BG_TEXTVIEW"
+            android:padding="10dp"
+            android:textColor="@color/TEXTCOLOR"
+            android:textColorHint="@color/TEXTCOLOR"
+            android:gravity="center_vertical" />
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Login"
+            android:background="@color/BG_BUTTON"
+            android:textColor="@color/TEXTCOLOR"
+            android:layout_marginTop="10dp"
+            android:linksClickable="true" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/btnLoginGoogle"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_google"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="50dp" />
+        <ImageButton
+            android:id="@+id/btnLoginFacebook"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_facebook"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:layout_toRightOf="@id/btnLoginGoogle" />
+    </RelativeLayout>
+</LinearLayout>
